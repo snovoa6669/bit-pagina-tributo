@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px 20px 40px 20px;
+}
+
+header {
+  width: 100%;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: left;
+  font-size: 2em;
+}
+
+nav {
+  width: 100%;
+  background-color: #34495e;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  height: 100%;
+  margin-top: 50px;
+}
+
+section {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+section p,
+section ul {
+  font-size: 1.1em;
+  color: #7f8c8d;
+}
+
+aside {
+  width: 100%;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  width: 100%;
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+/* Estilos para pantallas más grandes */
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  section {
+    width: 33.33%;
+  }
+
+  aside {
+    width: 25%;
+    margin-left: 20px;
+  }
+}
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  main {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  section {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 375px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
+img {
+  margin-left: 300px;
+}
+.imagenmedalla {
+  width: 50%;
+  height: auto;
+  margin-left: 200px;
+  padding-top: 10px;
+}
+.image_c {
+  width: 400px;
+  height: 400px;
+}
