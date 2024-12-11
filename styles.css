@@ -105,11 +105,6 @@ footer {
   section {
     width: 33.33%;
   }
-
-  aside {
-    width: 25%;
-    margin-left: 20px;
-  }
 }
 
 /* Estilos para pantallas más pequeñas */
@@ -135,16 +130,16 @@ footer {
     margin: 10px 0;
   }
 }
-img {
-  margin-left: 300px;
+.imagen_bjarne {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
 .imagenmedalla {
-  width: 50%;
+  max-width: 100%;
   height: auto;
-  margin-left: 200px;
-  padding-top: 10px;
-}
-.image_c {
-  width: 400px;
-  height: 400px;
+  display: block;
+  margin: 20px auto;
+  max-height: 300px;
 }
